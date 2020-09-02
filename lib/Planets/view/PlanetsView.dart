@@ -20,6 +20,7 @@ class PlanetsView extends PlanetsViewModel {
             title: Text(planets[index].name),
             subtitle: Text(planets[index].distanceFromSun),
             trailing: Text(planets[index].orbitalPeriod),
+            onTap: null,
           ),
         );
       },
