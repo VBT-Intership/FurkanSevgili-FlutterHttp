@@ -1,0 +1,186 @@
+[
+    {
+        "Name": "Mercury",
+        "distanceFromSun": "0.39 AU",
+        "orbitalPeriod": "87.96 Earth days",
+        "picture": "http://192.168.1.101:3000/mercury.png",
+        "moons": [
+            {
+                "name": "none",
+                "picture": "none"
+            }
+        ]
+    },
+    {
+        "Name": "Venus",
+        "distanceFromSun": "0.723 AU",
+        "orbitalPeriod": "224.68 Earth days",
+        "picture": "http://192.168.1.101:3000/venus.png",
+        "moons": [
+            {
+                "name": "none",
+                "picture": "none"
+            }
+        ]
+    },
+    {
+        "Name": "Earth",
+        "distanceFromSun": "1 AU",
+        "orbitalPeriod": "365.26 days",
+        "picture": "http://192.168.1.101:3000/earth.png",
+        "moons": [
+            {
+                "name": "Moon",
+                "picture": "none"
+            }
+        ]
+    },
+    {
+        "Name": "Mars",
+        "distanceFromSun": "1.524 AU",
+        "orbitalPeriod": "686.98 Earth days",
+        "picture": "http://192.168.1.101:3000/mars.png",
+        "moons": [
+            {
+                "name": "Phobos",
+                "picture": "none"
+            },
+            {
+                "name": "Deimos",
+                "picture": "none"
+            }
+        ]
+    },
+    {
+        "Name": "Jupiter",
+        "distanceFromSun": "5.203 AU",
+        "orbitalPeriod": "11.862 Earth years",
+        "picture": "http://192.168.1.101:3000/jupiter.png",
+        "moons": [
+            {
+                "name": "IO",
+                "picture": "none"
+            },
+            {
+                "name": "Europa",
+                "picture": "none"
+            },
+            {
+                "name": "Ganymede",
+                "picture": "none"
+            },
+            {
+                "name": "Callisto",
+                "picture": "none"
+            }
+        ]
+    },
+    {
+        "Name": "Saturn",
+        "distanceFromSun": "9.539 AU",
+        "orbitalPeriod": "29.456 Earth years",
+        "picture": "http://192.168.1.101:3000/saturn.png",
+        "moons": [
+            {
+                "name": "Titan",
+                "picture": "none"
+            },
+            {
+                "name": "Dione",
+                "picture": "none"
+            },
+            {
+                "name": "Enceladus",
+                "picture": "none"
+            },
+            {
+                "name": "Hyperion",
+                "picture": "none"
+            },
+            {
+                "name": "Lapetus",
+                "picture": "none"
+            },
+            {
+                "name": "Mimas",
+                "picture": "none"
+            },
+            {
+                "name": "Rhea",
+                "picture": "none"
+            },
+            {
+                "name": "Tethys",
+                "picture": "none"
+            }
+        ]
+    },
+    {
+        "Name": "Uranus",
+        "distanceFromSun": "19.18 AU",
+        "orbitalPeriod": "84.07 Earth years",
+        "picture": "http://192.168.1.101:3000/uranus.png",
+        "moons": [
+            {
+                "name": "Miranda",
+                "picture": "none"
+            },
+            {
+                "name": "Ariel",
+                "picture": "none"
+            },
+            {
+                "name": "Umbriel",
+                "picture": "none"
+            },
+            {
+                "name": "Titania",
+                "picture": "none"
+            },
+            {
+                "name": "Oberon",
+                "picture": "none"
+            }
+        ]
+    },
+    {
+        "Name": "Neptune",
+        "distanceFromSun": "30.06 AU",
+        "orbitalPeriod": "164.81 Earth years",
+        "picture": "http://192.168.1.101:3000/neptune.png",
+        "moons": [
+            {
+                "name": "Triton",
+                "picture": "none"
+            },
+            {
+                "name": "Proteus",
+                "picture": "none"
+            },
+            {
+                "name": "Nereid",
+                "picture": "none"
+            }
+        ]
+    },
+    {
+        "Name": "Pluto (Dwarf Planet)",
+        "distanceFromSun": "39.53 AU",
+        "orbitalPeriod": "247.7 years",
+        "picture": "http://192.168.1.101:3000/pluto.png",
+        "moons": [
+            {
+                "name": "Charon",
+                "picture": "none"
+            },
+            {
+                "name": "Nix",
+                "picture": "none"
+            },
+            {
+                "name": "Hydra",
+                "picture": "none"
+            }
+        ]
+    }
+]
