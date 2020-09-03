@@ -1,29 +1,29 @@
 import 'package:flutter/material.dart';
+import 'package:planets/Planets/model/PlanetModel.dart';
 import 'package:planets/Planets/viewModel/PlanetsViewModel.dart';
 
 class PlanetsView extends PlanetsViewModel {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: buildAppBar,
-      body: buildListView(),
-    );
+        appBar: buildAppBar,
+        body: ListView.builder(
+          itemCount: planets.length,
+          itemBuilder: (BuildContext context, int index) {
+            return buildCardPlanets(planets[index]);
+          },
+        ));
   }
 
-  ListView buildListView() {
-    return ListView.builder(
-      itemCount: planets.length,
-      itemBuilder: (BuildContext context, int index) {
-        return Card(
-          child: ListTile(
-            leading: Image.network(planets[index].picture),
-            title: Text(planets[index].name),
-            subtitle: Text(planets[index].distanceFromSun),
-            trailing: Text(planets[index].orbitalPeriod),
-            onTap: null,
-          ),
-        );
-      },
+  Card buildCardPlanets(PlanetModel planet) {
+    return Card(
+      child: ListTile(
+        leading: Image.network(planet.picture),
+        title: Text(planet.name),
+        subtitle: Text(planet.distanceFromSun),
+        trailing: Text(planet.orbitalPeriod),
+        onTap: null,
+      ),
     );
   }
 
