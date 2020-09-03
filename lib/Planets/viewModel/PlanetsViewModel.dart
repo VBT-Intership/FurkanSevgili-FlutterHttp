@@ -50,14 +50,6 @@ abstract class PlanetsViewModel extends State<Planets> {
         }
         break;
       default:
-        showDialog(
-          context: context,
-          builder: (context) {
-            return Dialog(
-              child: Text(response.statusCode.toString()),
-            );
-          },
-        );
     }
   }
 }
