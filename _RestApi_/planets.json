@@ -3,7 +3,7 @@
         "Name": "Mercury",
         "distanceFromSun": "0.39 AU",
         "orbitalPeriod": "87.96 Earth days",
-        "picture": "http://192.168.1.101:3000/mercury.png",
+        "picture": "http://192.168.1.106:3000/mercury.png",
         "moons": [
             {
                 "name": "none",
@@ -15,7 +15,7 @@
         "Name": "Venus",
         "distanceFromSun": "0.723 AU",
         "orbitalPeriod": "224.68 Earth days",
-        "picture": "http://192.168.1.101:3000/venus.png",
+        "picture": "http://192.168.1.106:3000/venus.png",
         "moons": [
             {
                 "name": "none",
@@ -27,7 +27,7 @@
         "Name": "Earth",
         "distanceFromSun": "1 AU",
         "orbitalPeriod": "365.26 days",
-        "picture": "http://192.168.1.101:3000/earth.png",
+        "picture": "http://192.168.1.106:3000/earth.png",
         "moons": [
             {
                 "name": "Moon",
@@ -39,7 +39,7 @@
         "Name": "Mars",
         "distanceFromSun": "1.524 AU",
         "orbitalPeriod": "686.98 Earth days",
-        "picture": "http://192.168.1.101:3000/mars.png",
+        "picture": "http://192.168.1.106:3000/mars.png",
         "moons": [
             {
                 "name": "Phobos",
@@ -55,7 +55,7 @@
         "Name": "Jupiter",
         "distanceFromSun": "5.203 AU",
         "orbitalPeriod": "11.862 Earth years",
-        "picture": "http://192.168.1.101:3000/jupiter.png",
+        "picture": "http://192.168.1.106:3000/jupiter.png",
         "moons": [
             {
                 "name": "IO",
@@ -79,7 +79,7 @@
         "Name": "Saturn",
         "distanceFromSun": "9.539 AU",
         "orbitalPeriod": "29.456 Earth years",
-        "picture": "http://192.168.1.101:3000/saturn.png",
+        "picture": "http://192.168.1.106:3000/saturn.png",
         "moons": [
             {
                 "name": "Titan",
@@ -119,7 +119,7 @@
         "Name": "Uranus",
         "distanceFromSun": "19.18 AU",
         "orbitalPeriod": "84.07 Earth years",
-        "picture": "http://192.168.1.101:3000/uranus.png",
+        "picture": "http://192.168.1.106:3000/uranus.png",
         "moons": [
             {
                 "name": "Miranda",
@@ -147,7 +147,7 @@
         "Name": "Neptune",
         "distanceFromSun": "30.06 AU",
         "orbitalPeriod": "164.81 Earth years",
-        "picture": "http://192.168.1.101:3000/neptune.png",
+        "picture": "http://192.168.1.106:3000/neptune.png",
         "moons": [
             {
                 "name": "Triton",
@@ -167,7 +167,7 @@
         "Name": "Pluto (Dwarf Planet)",
         "distanceFromSun": "39.53 AU",
         "orbitalPeriod": "247.7 years",
-        "picture": "http://192.168.1.101:3000/pluto.png",
+        "picture": "http://192.168.1.106:3000/pluto.png",
         "moons": [
             {
                 "name": "Charon",
